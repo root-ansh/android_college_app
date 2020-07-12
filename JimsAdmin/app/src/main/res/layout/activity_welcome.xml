@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    tools:context="com.work.chaostools.jimsadmin.WelcomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/welcome4"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="18dp"
+            app:cardElevation="5dp">
+            <Button
+                android:id="@+id/bt_create_ann"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/blue_dark"
+                android:background="@color/white"
+                android:padding="5dp"
+
+                android:textSize="20dp"
+                android:text="  Create Announcement"
+                android:drawableLeft="@drawable/ic_create_black_24dp"
+
+                />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            app:cardElevation="5dp">
+
+        <Button
+            android:id="@+id/bt_display_ann"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/blue_dark"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:text="   Display Announcements"
+            android:drawableLeft="@drawable/announcements_blue_24dp"
+            />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

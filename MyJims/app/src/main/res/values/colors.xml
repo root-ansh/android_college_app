@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">@color/color_green</color>
+    <color name="colorPrimaryDark">@color/color_green_Dark</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="colorAccent">#9fe450</color>
+    <color name="primary_text">#ffffff</color>
+    <color name="secondary_text">#f5f5f5</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="color_orange">#ff8800</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_blue">#000A9C</color>
+    <color name="color_voilet">#941f89</color>
+
+
+    <color name="color_green">#4CAF50</color>
+    <color name="color_green_Dark">#388E3C</color>
+
+    <color name="pinkAccent">#ff0961</color>
+    <color name="brown">#3e2723</color>
+
+
+
+
+
+    <color name="color_voilet_dark">#8e24aa</color>
+    <color name="color_grey">#cfd8dc</color>
+    <color name="color_grey_accent">#e1ffff</color>
+    <color name="color_grey_dark">#564e4e</color>
+
+
+
+
+</resources>
+

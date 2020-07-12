@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/al_bt_gallery"
+        android:text="Image"
+        android:drawableTop="@drawable/photo_alertdialogue_ann_l"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#00ffffff"
+        
+        
+        />
+    <Button
+        android:id="@+id/al_bt_document"
+        android:text="DOCUMENT"
+        android:drawableTop="@drawable/pdfpic_aldialogue_ann_l"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#00ffffff"/>
+    <Button
+        android:id="@+id/al_bt_other"
+        android:text="Other File"
+        android:drawableTop="@drawable/pic_otherfile_alertdialogue_ann_l"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#00ffffff"/>
+
+
+</LinearLayout>

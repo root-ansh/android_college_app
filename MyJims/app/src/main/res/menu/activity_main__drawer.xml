@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_options_item_home"
+            android:icon="@drawable/nav_options_home"
+
+            android:title="About" />
+        <item
+            android:id="@+id/nav_options_item_Courses"
+            android:icon="@drawable/nav_options_courses_24dp"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_options_item_Placements"
+            android:icon="@drawable/nav_options_placements_24dp"
+            android:title="Placements" />
+        <item
+            android:id="@+id/nav_options_item_contactdetails"
+            android:icon="@drawable/nav_options_contactdetails_24dp"
+            android:title="Contact Details" />
+    </group>
+
+
+    <item android:title="Coming Soon">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_options_items_Announcements"
+                    android:icon="@drawable/nav_options_announcements_24dp"
+                    android:title="Announcements" />
+                <item
+                    android:id="@+id/nav_options_item_Login"
+                    android:icon="@drawable/nav_options_sign_in24dp"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_options_item_ContactStaff"
+                    android:icon="@drawable/nav_options_contactstaff_24dp"
+                    android:title="Contact Staff" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Application">
+
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_options_items_Settings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/nav_options_item_appinfo"
+                    android:icon="@drawable/nav_options_info_24dp"
+                    android:title="App Info" />
+                <item
+                    android:id="@+id/nav_options_item_bugreport"
+                    android:icon="@drawable/nav_options_bugreport_24dp"
+                    android:title="Report Bug" />
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

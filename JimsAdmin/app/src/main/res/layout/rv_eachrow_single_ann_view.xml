@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dingleann_rveachrow_filelinks_tbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="filelink"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColorLink="@color/colorPrimary"
+            android:padding="10dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey_blue_semi_dark"
+        android:layout_marginBottom="5dp"/>
+
+
+</LinearLayout>
